@@ -30,7 +30,7 @@ export const insertVendors = async (req, res) => {
       photoUrl: vendor.photoUrl,
     }));
 
-    const inserted = await BengalVendor.insertMany(formattedVendors);
+    const inserted = await rajasthanVendor.insertMany(formattedVendors);
 
     res.status(201).json({
       success: true,

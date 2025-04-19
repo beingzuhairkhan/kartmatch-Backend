@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect("mongodb://127.0.0.1:27017/kartmatch", {
+mongoose.connect("mongodb+srv://zuhairk7890o:Jhq7kruiceEMpoQT@cluster0.703rvj7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
