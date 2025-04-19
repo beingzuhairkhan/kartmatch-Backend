@@ -1,0 +1,146 @@
+name,location__type,latitude,longitude,City,State,foodItems__-,foodItems,hygieneRating,tasteRating,hospitalityRating,photoUrl
+Prakash Sandwich and Chaat Centre,,19°11′41″ N ,72°58′30″ E,Mumbai ,Maharahstra ,sandwich ,pani puri,3 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736190745/prakash_rdm3jj.jpg
+Ram Sevak,,19°11′41″ N,72°58′35″ E,Mumbai ,Maharahstra ,pav bhaji,vada pav,2 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736230674/ram_sevak_jkue04.jpg
+Divadkar Bandu Sandwich and Pani Puri,,19°11′24″ N,72°58′17″ E,Mumbai ,Maharahstra ,pani puri,sandwich,5 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736231077/divakarbandhu_ul4ss6.jpg
+Sadguru,,19°11′24″ N,72°58′14″ E,Mumbai ,Maharahstra ,burger,bhel puri,3 star,5 star ,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736231395/sadguru_fvwyhn.jpg
+Shegav Kachori,,19°11′23″ N,72°58′8″ E ,Mumbai ,Maharahstra ,kachori,pav bhaji,5 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736246269/shegavkachori_jbk8vk.jpg
+Gupta Pani Puri Centre,,19°11′30″ N,72°58′23″ E,Mumbai ,Maharahstra ,pani puri,sodas,2 star,5 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736257595/guptapanipuri_vyaylw.jpg
+Mom's Kitchen,, 19°11′32″ N,72°58′25″ E,Mumbai ,Maharahstra ,pulao,dal rice,5 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736257762/momskitchen_kurxt8.jpg
+Saikrupa Chaat Corner,,19°11′28″ N, 72°58′21″ E,Mumbai ,Maharahstra ,sev puri,bhel ,3 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736257942/saikrupa_vo3vr1.jpg
+Dheeraj Momos Centre,,19°11′43″ N,72°58′36″ E ,Mumbai ,Maharahstra ,momos,noodles,3 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736258252/dheerajmomos_vaaawx.jpg
+Aaikrupa,,19°11′39″ N,72°58′25″ E,Mumbai ,Maharahstra ,ice-cream,sodas,4 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736258288/aaikrupa_tc2tpt.jpg
+Sham,, 19°11′41″ N ,72°58′32″ E,Mumbai ,Maharahstra ,pav bhaji,vada pav,3 star,4 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736258789/Screenshot_2025-01-07_at_7.32.45_PM_y5ispu.png
+Bharat Lal Ice Cream Centre,,19°11′41″ N, 72°58′32″ E,Mumbai ,Maharahstra ,ice-cream,gola,3 star,3 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736258984/Screenshot_2025-01-07_at_7.33.10_PM_znzkjd.png
+Steam Hot momos,,19°11′30″ N,72°58′2″ E,Mumbai ,Maharahstra ,momos,noodles,2 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736430257/IMG_0890_hufuz9.jpg
+Jai Mata Di dabeli centre,,19°11′37″ N,72°58′4″ E,Mumbai ,Maharahstra ,dabeli,pav bhaji,3 star,4 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736430772/jaimatadabeli_ubtj5z.jpg
+Narial Wala,,19°11′41″ N,72°58′0″ E,Mumbai ,Maharahstra ,coconut,juice,2 star,3 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736431062/narial_wala_n67shm.jpg
+Gopi sandwich,,19°11′42″ N,72°58′0″ E,Mumbai ,Maharahstra ,sandwich ,burger,3 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736430958/gopisandwich_kbco0e.jpg
+Apte Joshi vada pav,,19°11′42″ N,72°58′0″ E,Mumbai ,Maharahstra ,vada pav,misal pav,4 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736431563/aptehjoshi_vbzwrk.jpg
+ Mhatre snacks corner,,19°11′43″ N,72°57′57″ E,Mumbai ,Maharahstra ,samosa,vada pav,2 star,3 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736431602/mhatre_xvoeyy.jpg
+The happy samosa,,19°11′43″ N,72°57′57″ E,Mumbai ,Maharahstra ,samosa,kachori,5 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736431646/happysamosa_p8bhxk.jpg
+Jai Maharashtra Chinese corner,,19°11′43″ N,72°57′57″ E,Mumbai ,Maharahstra ,chowmein,manchurian,3 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736432004/maharahstra_chinese_fbvkok.jpg
+Gupta Bhel Puri and Snacks,,19.283664° N,72.819935° E,Mumbai,Maharahstra ,bhel puri/sev puri,cheese blast sandwich,4 star,4 star,4 star,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736503121/Screenshot_2025-01-10_at_3.28.20_PM_mtqxeh.png
+Seena chinese corner,,19.20030 ° N,72°57′56″ E,Mumbai,Maharashtra,noodles,manchurian,2 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736503401/seenachinese_qqwuxz.jpg
+Gupta Snacks ,,19.2107° N,72.8397 ° E,Mumbai,Maharashtra,panini sandwich,"sev puri, pizza",2 star,3 star,3 star,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736504478/Screenshot_2025-01-10_at_3.50.57_PM_hn36gi.png
+Navdurga Vadapav,,19.21377° N,72.84152 ° E,Mumbai,Maharashtra,masala vada pav,cheese vada pav,4 star,5 star,5 star,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736505072/Screenshot_2025-01-10_at_4.00.52_PM_dtv5yf.png
+The Paandaa Momos,,19.21241° N,72.83942° E,Mumbai,Maharashtra,fried/veg momos,afgani/supreme momos,3 star,4 star ,4 star ,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736505447/Screenshot_2025-01-10_at_4.06.51_PM_kmkrku.png
+UFO Fries and Corn,,19.21184° N,72.87516° E,Mumbai,Maharashtra,burger/fries,hot chocolate/drinks,4 star ,5 star ,5 star ,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736505968/Screenshot_2025-01-10_at_4.15.43_PM_fl4c1r.png
+Mexibay,,19.21396°N,72.84119° E,Mumbai,Maharashtra,loaded tacos,loaded nachos,5 star ,4 star ,4 star,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736506380/Screenshot_2025-01-10_at_4.22.39_PM_zxg0ps.png
+Pure Veg Shawarma,,19.21152°N,72.84167°E,Mumbai,Maharashtra,shwarma,loaded fries,5 star ,5 star ,5 star ,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736506499/Screenshot_2025-01-10_at_4.24.40_PM_ukzz8m.png
+Radha Krishna Fast Food Center,,19.21051°N,72.84008°E ,Mumbai,Maharashtra,schezwan noodles/rice,manchow soup,4 star ,5 star ,4 star ,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736506690/Screenshot_2025-01-10_at_4.26.46_PM_ltca8i.png
+Stomach House,,19.10800°N,72.82369°E ,Mumbai,Maharashtra,pav bhaji/pasta,falooda,4 star,5 star ,5 star ,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736507574/Screenshot_2025-01-10_at_4.41.56_PM_grinam.png
+Punjab Da Chulah,,19.11163°N,72.82673°E,Mumbai,Maharashtra,cheese garlic kulcha,lassi,4 star ,5 star ,4 star,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736507964/Screenshot_2025-01-10_at_4.47.00_PM_oiiytn.png
+Shree Ram Pav Bhaji,,19.10025°N,72.82863°E,Mumbai,Maharashtra,pav bhaji ,onion cheese pan,3 star,4 star,4 star ,https://res.cloudinary.com/dmf9sk3jv/image/upload/v1736520455/Screenshot_2025-01-10_at_8.17.11_PM_q4hlf5.png
+Garib Nawaz caterer,,19°11′55″ N,72°57′56″E,Mumbai,Maharahstra ,biryani,ice-cream,3 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736589230/garib_nawaz_jozjyf.jpg
+Ghubu foods,,19°11′55″ N,72°57′56″ E,Mumbai,Maharashtra,vada pav,misal pav,2 star,3 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736589397/ghubufoods_rbakos.jpg
+Momos corner,,19°11′56″ N,72°57′55″ E,Mumbai,Maharashtra ,momos ,shawarma,3 star,4 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736589512/momos_corner_hzkd1b.jpg
+Seven star chinese corner,,19°11′56″ N,72°57′55″ E,Mumbai,Maharashtra,chowmein,noodles,3 star,2 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736589929/sevenstarchinese_rajiyy.jpg
+Famouse juice centre,,19°11′53″ N,72°58′5″ E,Mumbai,Maharashtra,juice,falooda,3 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736590064/famousejuice_wzsqn9.jpg
+Laadki bahin corner,,19°11′49″ N,72°58′10″ E,Mumbai,Maharahstra ,fries,momos,3 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736590316/ladkibahin_dhf8ib.jpg
+Flavours of spice,,19°11′21″ N,72°58′20″ E,Mumbai,Maharashtra,pani puri,sodas,5 star,5 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736590753/spices_g58wem.jpg
+Shri Krishna ,,19°11′21″ N,72°58′20″ E,Mumbai,Maharashtra,pav bhaji,sev puri ,5 star,3 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736590960/shri_krishna_xp4k2f.jpg
+Apte Joshi vada pav,,19°11′20″ N,72°58′18″ E,Mumbai,Maharashtra,vada pav,dabeli,3 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736591277/apte_joshi_2_zoua1f.jpg
+Shradha farsan mart,,19°11′33″ N,72°58′15″ E,Mumbai,Maharashtra,samosa,vada pav,3 star,5 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736591799/shradha_farsan_nqssct.jpg
+Saatvik chaat corner,,19°11′43″ N,72°58′25″ E,Mumbai,Maharashtra,sev puri,momos,4 star,5 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1736591910/saatvik_chaat_tukoqc.jpg
+Badshah cold drinks ,,18°57′02″ N,72°50′05″ E,Mumbai,Maharahstra ,falooda,juices,5 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737121602/badshah_cold_rink_owq3ux.jpg
+Bademiya roll counter,,18°57′02″ N,72°50′05″ E,Mumbai,Maharahstra ,kebabs,rolls,4 star,5 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737121843/bademiya_aeog2j.jpg
+Canon pav bhaji,,18°57′02″ N,72°50′05″ E,Mumbai,Maharahstra ,pav bhaji,vada pav,3 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737121990/cannon_wvupq0.avif
+Anand stall,,19°05′56″ N,72°49′37″ E,Mumbai,Maharahstra ,vada pav,sandwich,3 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737122146/anand_u80yu3.jpg
+New mumbai pav bhaji,,19°05′56″ N,72°49′37″ E,Mumbai,Maharahstra ,pav bhaji,dabeli,2 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737122388/newmumbai_hmjuhb.jpg
+Bhel puri and Chaat centre,,19°05′56″ N,72°49′37″ E,Mumbai,Maharahstra ,bhel puri/sev puri,samosa,2 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737122512/bhelpuriandchaat_juhscr.jpg
+Pav Bhaji chinese,,18°57′15″ N,72°48′44″ E,Mumbai,Maharahstra ,pav bhaji,chowmein,4 star,3 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737122762/pavbhajichinese_aqtzrp.jpg
+Kapoor Punjabi kulfi,,18°57′15″ N,72°48′44″ E,Mumbai,Maharahstra ,kulfi,gola,5 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737122848/kapoor_ic7mqq.jpg
+Karthik pav bhaji,,18°57′15″ N,72°48′44″ E,Mumbai,Maharahstra ,pav bhaji,vada pav,3 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737123007/karthik_ltuelo.jxl
+Mashallah,,18°57′26″ N,72°50′04″ E,Mumbai,Maharahstra ,biryani,samosa,2 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737123230/mashallah_umxicv.webp
+Shabbir's sweets,,18°57′26″ N,72°50′04″ E,Mumbai,Maharahstra ,ice cream,kulfi,4 star,5 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737123398/shabir_shfxbv.webp
+Lenin pav bhaji,,19°05′05″ N,72°54′32″ E,Mumbai,Maharahstra ,pav bhaji,manchurian,2 star,2 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737123609/lenin_ztevuw.jpg
+Jay Ganesh vada pav,,19°05′05″ N,72°54′32″ E,Mumbai,Maharahstra ,vada pav,tea,2 star,3 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737124020/jaiganesh_hjiisg.webp
+Lalit bhel puri,,19°05′05″ N,72°54′32″ E,Mumbai,Maharahstra ,bhel puri/sev puri,kachori,2 star,3 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737124203/lalit_gemkj8.jpg
+Cornasm,,19°03′49″ N,72°49′46″ E,Mumbai,Maharahstra ,corn,,2 star,2 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737124757/cornasm_sf1r47.jpg
+Juice n more,,19°03′49″ N,72°49′46″ E,Mumbai,Maharahstra ,juice ,falooda,3 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737124830/juicenmore_xquslf.avif
+Amritsar dhaba,,19°03′49″ N,72°49′46″ E,Mumbai,Maharahstra ,kulcha,dal makhni,3 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737124965/amritsardhaba_icrgci.avif
+Shivsagar bhelpuri,,18°55′18″ N,72°50′00″ E,Mumbai,Maharahstra ,bhel puri/sev puri,pani puri,2 star,5 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737125227/shivsagarbhel_sxfbus.jpg
+Balaji cafe,,19°01′14″ N,72°50′17″ E,Mumbai,Maharahstra ,idli ,medu vada,3 star,4 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737125482/balajicafe_yxryjt.jpg
+Vidhya food Tandoori corner,,19°01′14″ N,72°50′17″ E,Mumbai,Maharahstra ,chicken tandoori,chicken tikka,2 star,2 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737125610/vidhyafood_qieral.webp
+Tibb's Frankie,,19°01′14″ N,72°50′17″ E,Mumbai,Maharahstra ,frankie,,5 star,5 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737261598/Tibb_s_Frakie_zwcezq.webp
+Samaadhan,,19°01′40″ N,72°51′50″ E,Mumbai,Maharashtra,dosa ,pani puri ,4 star,4 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737261665/samadhan_dxhhf8.webp
+Shri Swami Samarth fast food,,19°01′40″ N,72°51′50″ E,Mumbai,Maharashtra,sandwich ,juices,3 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737261841/shri_swami_samarth_fastfood_yh9wee.jpg
+K Town,,19°12′51″ N,72°58′43″ E,Mumbai,Maharashtra,noodles ,burger,3 star,5 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737262217/K_town_unjrws.jpg
+Classic fast food corner,,19°12′40″ N,72°51′15″ E,Mumbai,Maharashtra,pav bhaji ,pulao,3 star,2 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737262390/classicfastfood_xhet53.avif
+Khau Gali,,19°12′40″ N,72°51′15″ E,Mumbai,Maharashtra,vada pav,samosa,4 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737262541/khau_xinflm.jpgm.jpg
+Jai Maharashtra Fast food,,19°12′40″ N,72°51′15″ E,Mumbai,Maharashtra,samosa,vada pav,2 star,2 star, 4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1737262684/jaimaharahstrafast_ftqdae.avif
+Sharma Chaat Bhandar,,19°07′50″ N,72°50′10″ E,Mumbai,Maharashtra,pani puri,sev puri,3 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738334042/sharmachatbhandar_lzt21a.webp
+Breadkraft,,19°07′50″ N,72°50′10″ E,Mumbai,Maharashtra,nuggets,juices,2 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738334129/breadkraft_rdmawu.avif
+Twistix,,19°07′50″ N,72°50′10″ E,Mumbai,Maharashtra,potato sticks,burger,5 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738334245/twistix_wvdhug.avif
+Famous Malai Wala,,19°11′12″ N,72°58′43″ E,Mumbai,Maharashtra,gola,ice cream,3 star,5 star ,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738334397/famous_malai_fgtkch.avif
+Mahadev ice gola,,19°11′12″ N,72°58′43″ E,Mumbai,Maharashtra,gola,ice cream,5 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738334517/mahadev_ice_lzrm7d.webp
+Agar kalla khata,,19°11′12″ N,72°58′43″ E,Mumbai,Maharahstra ,gola ,rabdi,2 star,5 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738334617/agar_kalla_khatta_ujqkxa.webp
+Sardar Paya house,,19°02′28″ N,72°52′19″ E,Mumbai,Maharashtra,butter chicken,naan,5 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738334976/sardar_paya_house_yhufth.jpg
+Amrisar Kulcha and chole,,19°02′28″ N,72°52′19″ E,Mumbai,Maharashtra ,chhole,kulcha,3 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738335073/amristsar_kulcha_chole_er6cdc.webp
+Manjit Chole puri wala,,19°02′28″ N,72°52′19″ E,Mumbai,Maharashtra,chole,puri,3 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738335142/Manjeet_chole_puri_rbx49x.jpg
+Krishna chaat centre,,18°57′32″ N,72°49′59″ E,Mumbai ,Maharashtra,pani puri,bhel ,4 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738390547/krishna_chaat_centre_p3kder.jpg
+Sai deep,,18°57′32″ N,72°49′59″ E,Mumbai ,Maharahstra ,noodles,manchurian,3 star,4 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738390735/sai_deep_o56o8m.avif
+Mastraam,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharashtra,dosa ,pav bhaji,3 star,3 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391391/mastraam_bzsrci.jpg
+Bestie toastie,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharashtra,avacado toast,juices,2 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391307/bestie_toastie_ofgyd2.jpg
+Food for every mood,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharashtra,samosa,pani puri ,3 star,4 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391308/food_for_every_mood_qbzyg6.jpg
+Luscious waffles,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharashtra,waffles,cake,2 star,3 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391305/luscious_waffles_dfh2rz.jpg
+Mera pasta hub,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharashtra,pasta ,pizza,3 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391306/mera_pasta_hub_xbfv0q.jpg
+Mexibay,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,nachos,burritos,4 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391306/mexibay_chu17m.jpg
+Crime master momo,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,momos,chowmein,2 star,3 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391304/crime_master_momo_ewdrc6.jpg
+Swiss waffle,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,waffles,ice cream,5 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391814/swiss_waffle_btp4ap.jpg
+Healthy bites,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,butter chicken,chaap,3 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391307/health_bites_t6twjb.jpg
+Corn Dog,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,corn,ramen,4 star,4 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391306/corn_dog_sg2tex.jpg
+Anand Mithibai vada pav,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,vada pav,dosa,2 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391304/anand_mithi_bai_y5wiqt.jpg
+DFC korean point,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,maggi,ramen,2 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391306/dfc_korean_point_hwj5cv.jpg
+DFC kulhad pizza,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,pizza,juices,4 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391307/dfc_kulhad_pizza_cdghq8.jpg
+Pooja malai gola,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,gola,ice cream,3 star,4 star ,4 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738392082/pooja_malai_gola_nr1zh6.jpg
+Conical Gaufres,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,stick waffles,ice cream,4 star ,5 star ,5 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391307/conical_gaufres_mepb8u.jpg
+Shri deva pani puri,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,pani puri,sev puri,5 star ,4 star ,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738392200/shri_deva_pani_puri_wkr45x.jpg
+London chocolate strawberries,,19°12′51″ N,72°50′15″ E,Mumbai ,Maharahstra ,chocolate strawberry ,ice cream,5 star ,5 star ,5 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391305/london_choclate_strawberries_gsh7km.jpg
+The korean house,,19°12′51″ N,72°50′15″ E,Mumbai,Maharahstra ,ramen,sushi,4 star ,5 star ,4 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738392918/the_korean_house_xyqquh.jpg
+Best borivali faluda,,19°12′51″ N,72°50′15″ E,Mumbai,Maharahstra ,faluda,ice cream,4 star,5 star ,5 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391306/best_borivali_malai_centre_bhrnmq.jpg
+Tandoor se and more,,19°12′51″ N,72°50′15″ E,Mumbai,Maharahstra ,paneer tikka,chole,4 star ,5 star ,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738393033/tandoor_se_and_more_fwhdic.jpg
+Bevafa pani puri,,19°12′51″ N,72°50′15″ E,Mumbai,Maharahstra ,pani puri,sev puri,3 star,4 star,4 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738391307/bevafa_pani_puri_svobzz.jpg
+Mani's,,19°11′24″ N,72°58′17″ E,Mumbai,Maharahstra ,dosa ,coffee,5 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738680369/mani_s_slnszv.jpg
+Gokhle misal pav,,19°11′24″ N,72°58′17″ E,Mumbai,Maharahstra ,misal pav ,samosa,5 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738680459/gokhle_bc83zw.jpg
+Ashok vada pav,,19°01′30″ N,72°50′20″ E,Mumbai,Maharahstra ,vada pav,samosa,4 star,4 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738764259/ashok_vada_pav_vfubnn.jpg
+Anand stall,,19°06′00″ N,72°50′30″ E,Mumbai,Maharahstra ,vada pav,dosa,5 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738764357/anand_stall_tohtgo.webp
+Badshah Falooda,,18°57′50″ N,72°50′20″ E,Mumbai,Maharahstra ,falooda,ice cream,2 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738764495/badshah_falooda_qaafs4.jpg
+Sardar Pav Bhaji,,18°58′20″ N,72°49′30″ E,Mumbai,Maharashtra,pav bhaji,misal pav,4 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738764758/sardar_izigax.jpg
+Aaram vada pav,,18°56′52″ N,72°50′10″ E,Mumbai,Maharashtra,vada pav,pav bhaji,3 star,4 star ,4 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738764863/aram_mctnnj.jpg
+Elco pani puri centre,,19°03′15″ N,72°49′50″ E,Mumbai,Maharashtra,pani puri,sev puri,4 star ,5 star ,5 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738765314/elco_xbnfxf.jpg
+Amar juice centre ,,19°04′40″ N,72°51′10″ E,Mumbai,Maharashtra,juices,sandwiches,5 star ,4 star ,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738765360/amar_gb2agb.jpg
+Bachelor's juice centre,,18°56′40″ N,72°49′20″ E,Mumbai,Maharashtra,juices,sandwiches,5 star ,5 star ,5 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738765458/bachelor_s_cljnmw.webp
+Gupta chaat centre,,19°01′45″ N,72°51′30″ E,Mumbai,Maharashtra,bhel puri/sev puri,dahi puri,4 star ,5 star ,4 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738765576/gupta_chaat_centre_yua1ke.jpg
+Ram ashray,,19°01′55″ N,72°50′55″ E,Mumbai,Maharashtra,dosa ,idli,4 star,5 star ,5 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738765653/ram_ashray_p0wdey.jpg
+Guru kripa samosa,,19°02′40″ N,72°52′00″ E,Mumbai,Maharashtra,samosa,sandwiches,4 star ,5 star ,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738766709/gurukripa_zuvaua.jpg
+Sree Krishna batatawada,,19°01′25″ N,72°50′15″ E,Mumbai,Maharashtra,batatawada,samosa,3 star,4 star,4 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1738766823/batata_nfqxss.jpg
+Sai swad dosa,,19°04′20″ N,72°50′30″ E,Mumbai,Maharashtra,dosa ,idli,5 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738766959/sai_swad_cowdgy.avif
+Shreeji stall,,19°05′20″ N,72°54′40″ E,Mumbai,Maharashtra,vada pav,pav bhaji,2 star,5 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738824170/shreeji_dtdtkj.jpg
+Jai Jawan,,19°03′10″ N,72°49′45″ E,Mumbai,Maharahstra ,butter chicken,prawn,5 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738824248/jai_jawan_ecirme.jpg
+Anna's idli stall,,18°59′45″ N,72°49′55″ E,Mumbai,Maharashtra,idli ,dosa,3 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738824323/anna_ork08q.avif
+Shalimar,,18°57′30″ N,72°50′05″ E,Mumbai,Maharashtra ,mutton,kebab,3 star,4 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738824414/shalimar_ujflb5.avif
+Kartik dosa centre,,19°08′50″ N,72°49′40″ E,Mumbai,Maharashtra,dosa ,idli,4 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738824513/kartik_dosa_kykam3.jpg
+Haji Tikka corner,,18°57′20″ N,72°50′25″ E,Mumbai,Maharashtra,kebabs,malpua,3 star,4 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738824703/haji_x0utbw.jpg
+Mamledar misal,,19°11′30″ N,72°58′20″ E,Mumbai,Maharahstra ,misal pav ,samosa,3 star,3 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738825639/mamledar_pi7kaz.webp
+Bachelor's ice cream,,18°56′40″ N,72°49′20″ E,Mumbai,Maharashtra,ice cream,juices,2 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738825748/bachelor_s_xsd7cq.jpg
+Prakash Shakahari Upahaar Kendra,,19°01′45″ N,72°50′20″ E,Mumbai,Maharashtra,vada pav,samosa,3 star,4 star,2 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738825846/prakash_rkujze.webp
+Kala Khatta stall,,19°06′55″ N,72°49′10″ E,Mumbai,Maharashtra,gola,ice cream,2 star,3 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738826408/kala_khatta_agxh8a.webp
+JJ garden vada pav,,18°30′40″ N,73°52′30″ E,Pune,Maharashtra,vada pav,samosa,3 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738830718/garden_vada_pav_v2mlzh.jpg
+Sujata Mastani,,18°30′20″ N,73°51′50″ E,Pune,Maharashtra,milkshake,ice cream,4 star,5 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738830824/sujata_mastani_hi3web.webp
+Bedekar misal,,18°31′25″ N,73°51′10″ E,Pune,Maharashtra,misal pav ,vada pav,2 star,3 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738831003/bedekar_misal_tofhhn.avif
+Sadhana Misal pav,,20°00′55″ N,73°43′10″ E,Nashik,Maharashtra,misal pav ,buttermilk,5 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738852908/sadhana_vqjf6j.webp
+Shaukin bhel,,20°00′40″ N,73°45′20″ E,Mumbai,Maharashtra,bhel puri,sev puri,3 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738852998/shokin_bhel_s4cwwc.avif
+Tara Pan centre,,19°53′20″ N,75°20′45″ E,Aurangabad,Maharahstra,paan,-,4 star,4 star,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738853156/tara_pan_kjwgdt.avif
+Yewale tea stall,,19°53′10″ N,75°20′30″ E,Aurangabad,Maharashtra,tea,coffee,2 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738853250/yewale_tea_it6drj.jpg
+Phadtare misal pav,,16°41′20″ N,74°14′10″ E,Kolhapur,Maharashtra,misal pav ,pav bhaji,2 star,3 star,3 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738853348/phadtare_misal_xyrguz.avif
+Vithal kamat pav bhaji,,17°40′10″ N,75°55′40″ E,Solapur,Maharahsta,pav bhaji,vada pav,4 star,5 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1738853492/vithal_rfehfh.webp
+Griddle mama,,"19°0'22"" N","72°49'29"" E",Mumbai,Maharashtra,rolls ,bowls,3 star,4 star ,4 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1739079924/griddle_mama_rhtbfk.jpg
+Shri Lokseva dairy,,"19°0'22"" N","72°49'29"" E",Mumbai,Maharashtra,milkshake,-,4 star ,5 star ,5 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1739079924/shri_lokseva_dairy_xxcjuq.jpg
+Janta seva hindu hotel,,"19°0'22"" N","72°49'29"" E",Mumbai,Maharashtra,bun maska pav,tea,5 star ,4 star ,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1739079924/janta_seva_hindu_hotel_glramy.jpg
+Subhash hindu restaurant,,"19°0'22"" N","72°49'29"" E",Mumbai,Maharahstra,samosa,sodas,5 star ,5 star ,5 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1739079924/subhash_hindu_restaurant_c9llrh.jpg
+Suleman usman mithaiwala,,18°57′50″ N,72°50′30″ E,Mumbai,Maharahstra,malpua,phirni,4 star ,5 star ,4 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1739285094/suleman_bo1uec.png
+Cafe good luck,,18°31′30″ N,73°50′20″ E,Pune,Maharashtra,bun maska pav,tea,4 star,5 star ,5 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1739285203/cafe_good_luck_a1lxwk.jpg
+Appa's misal pav,,18°30′50″ N,73°51′40″ E,Pune,Maharashtra,misal pav ,vada pav,4 star ,5 star ,4 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1739285282/appa_misal_cj9smz.avif
+Shree krishna mastani,,18°30′40″ N,73°52′10″ E,Pune,Maharashtra,mango mastani,ice cream,3 star,4 star,4 star ,https://res.cloudinary.com/dcafi44ej/image/upload/v1739285393/shree_krishna_mastani_cwfobw.jpg
+Mahananda dairy sweets,,20°01′10″ N,73°45′30″ E,Nashik,Maharahstra,misal pav ,basundi,5 star,4 star,5 star,https://res.cloudinary.com/dcafi44ej/image/upload/v1739285582/mahananda_hsss8h.avif

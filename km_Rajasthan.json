@@ -1,0 +1,1849 @@
+[
+  {
+    "name": "ShriNath Pav Bhaji",
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "pav bhaji",
+    "foodItems": "veg pulao",
+    "hygieneRating": "4 Stars",
+    "tasteRating": "5 Stars",
+    "hospitalityRating": "4 Stars",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736012281/Screenshot_2025-01-04_at_11.06.33_PM_vpzdih.png"
+  },
+  {
+    "name": "Prajapati Vada Pav",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "vada pav",
+    "foodItems": "dabeli",
+    "hygieneRating": "3 stars",
+    "tasteRating": "5 Stars",
+    "hospitalityRating": "4 stars",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736012638/Screenshot_2025-01-04_at_11.13.41_PM_bu3oah.png"
+  },
+  {
+    "name": "ShriNath Dosa center",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "dosa",
+    "foodItems": "idli sambar",
+    "hygieneRating": "5 Stars",
+    "tasteRating": "5 stars",
+    "hospitalityRating": "5 stars",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736012836/Screenshot_2025-01-04_at_11.16.52_PM_mhz0ar.png"
+  },
+  {
+    "name": "Devnarayan Pani Puri",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "pani puri",
+    "foodItems": "pani puri",
+    "hygieneRating": "3 Star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "3 Star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014573/Screenshot_2025-01-04_at_11.45.50_PM_gr4jcc.png"
+  },
+  {
+    "name": "Momos Wala",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "momos",
+    "foodItems": "momos",
+    "hygieneRating": "3 Star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014685/Screenshot_2025-01-04_at_11.46.35_PM_nnwxk4.png"
+  },
+  {
+    "name": "Delhi 6 Fast Food",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "paneer tikka",
+    "foodItems": "soya chaap",
+    "hygieneRating": "3 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014689/Screenshot_2025-01-04_at_11.46.44_PM_oytsho.png"
+  },
+  {
+    "name": "Jai Mata Di Fast Food",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "daal ke bade",
+    "foodItems": "vada pav",
+    "hygieneRating": "4 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014693/Screenshot_2025-01-04_at_11.47.03_PM_ekhedk.png"
+  },
+  {
+    "name": "Bombay Chinese Fast Food",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "sandwiches",
+    "foodItems": "pasta",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014693/Screenshot_2025-01-04_at_11.47.03_PM_ekhedk.png"
+  },
+  {
+    "name": "Shri Nath Pav Bhaji",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "masala pav",
+    "foodItems": "pav bhaji",
+    "hygieneRating": "5 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014697/Screenshot_2025-01-04_at_11.47.14_PM_qqdmcc.png"
+  },
+  {
+    "name": "Krishna Sandwich",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "sandwich",
+    "foodItems": "manchurian",
+    "hygieneRating": "3 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014702/Screenshot_2025-01-04_at_11.47.24_PM_ibjpyj.png"
+  },
+  {
+    "name": "Bombay ka Shahi Vada Pav",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'14\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "vada pav",
+    "foodItems": "dabeli",
+    "hygieneRating": "4 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014926/Screenshot_2025-01-04_at_11.50.09_PM_i6ppsi.png"
+  },
+  {
+    "name": "Devnarayan Pani Puri",
+    
+    "longitude": "26*15'49\" N",
+    "latitude": "73*0'18\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "pani puri",
+    "foodItems": "pani puri",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014930/Screenshot_2025-01-04_at_11.50.17_PM_tbnlfc.png"
+  },
+  {
+    "name": "Mateshwari Ice Cream",
+    
+    "longitude": "26*15'49\" N",
+    "latitude": "73*0'18\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "ice cream",
+    "foodItems": "faluda",
+    "hygieneRating": "5 star",
+    "tasteRating": "2 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014935/Screenshot_2025-01-04_at_11.50.27_PM_clkuei.png"
+  },
+  {
+    "name": "Shri krishn Pav Bhaji",
+    
+    "longitude": "26*15'49\" N",
+    "latitude": "73*0'18\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "pav bhaji",
+    "foodItems": "pav bhaji",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014948/Screenshot_2025-01-04_at_11.50.36_PM_xabmg9.png"
+  },
+  {
+    "name": "Shrinath Pav bhaji",
+    
+    "longitude": "26*15'49\" N",
+    "latitude": "73*0'18\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "pav bhaji",
+    "foodItems": "pav bhaji",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014951/Screenshot_2025-01-04_at_11.50.47_PM_hf7vds.png"
+  },
+  {
+    "name": "Brothers point",
+    
+    "longitude": "26*15'49\" N",
+    "latitude": "73*0'17\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "sandwich",
+    "foodItems": "maggi",
+    "hygieneRating": "5 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014955/Screenshot_2025-01-04_at_11.50.57_PM_qj0auh.png"
+  },
+  {
+    "name": "Sweetcorn Wala",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'19\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "sweet corn",
+    "foodItems": "dosa",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014975/Screenshot_2025-01-04_at_11.51.05_PM_aiywe2.png"
+  },
+  {
+    "name": "Vaishnav Shri Balaji Food Corner",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'19\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "moong dal pakora and potatoes",
+    "foodItems": "",
+    "hygieneRating": "3 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736014991/Screenshot_2025-01-04_at_11.51.16_PM_gtvdij.png"
+  },
+  {
+    "name": "JBR Fast Food",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'19\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "paneer",
+    "foodItems": "chowmein",
+    "hygieneRating": "2 star",
+    "tasteRating": "2 star",
+    "hospitalityRating": "2 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736015310/Screenshot_2025-01-04_at_11.57.06_PM_xyydur.png"
+  },
+  {
+    "name": "Retro Shakes by Bhupi",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'19\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "shakes",
+    "foodItems": "shakes",
+    "hygieneRating": "3 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736015317/Screenshot_2025-01-04_at_11.57.13_PM_acfqnp.png"
+  },
+  {
+    "name": "Amritsari Chur Chur Naan",
+    
+    "longitude": "26*15'44\" N",
+    "latitude": "73*0'19\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "chur chur naan",
+    "foodItems": "chur chur naan",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736015320/Screenshot_2025-01-04_at_11.57.23_PM_cajslm.png"
+  },
+  {
+    "name": "59 Pizza Wala",
+    
+    "longitude": "26*15'43\" N",
+    "latitude": "73*0'18\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "pizza",
+    "foodItems": "sandwich",
+    "hygieneRating": "3 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736015324/Screenshot_2025-01-04_at_11.57.34_PM_zrirhr.png"
+  },
+  {
+    "name": "Shankar Kulfi",
+    
+    "longitude": "26*15'43\" N",
+    "latitude": "73*0'18\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "kulfi",
+    "foodItems": "kulfi",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736015334/Screenshot_2025-01-04_at_11.57.44_PM_i4ekdx.png"
+  },
+  {
+    "name": "R.M. Momos",
+    
+    "longitude": "26*15'43\" N",
+    "latitude": "73*0'18\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "momos",
+    "foodItems": "momos",
+    "hygieneRating": "4 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736015344/Screenshot_2025-01-04_at_11.57.52_PM_i2eetf.png"
+  },
+  {
+    "name": "R.M Fastfood",
+    
+    "longitude": "26*15'43\" N",
+    "latitude": "73*0'17\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "burger",
+    "foodItems": "manchurian",
+    "hygieneRating": "3 star",
+    "tasteRating": "2 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736015361/Screenshot_2025-01-04_at_11.57.59_PM_oclqkn.png"
+  },
+  {
+    "name": "The Rolling Stove",
+    
+    "longitude": "26*15'43\" N",
+    "latitude": "73*0'17\" E",
+    "City": "Jodhpur",
+    "State": "Rajasthan",
+    "foodItems-": "chur chur naan",
+    "foodItems": "chur chur naan",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/dcw4w2kjm/image/upload/v1736015365/Screenshot_2025-01-04_at_11.58.05_PM_rlbgeo.png"
+  },
+  {
+    "name": "Lalaji Patrusia Bhandar",
+    
+    "longitude": "26.889754",
+    "latitude": "75.809935",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Pani Puri",
+    "foodItems": "",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "BigScooopCafe",
+    
+    "longitude": "26.856509",
+    "latitude": "75.806284",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Bobba Tea, Milkshake",
+    "foodItems": "Burger, Sandwhich, Pizza",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Chair Corner",
+    
+    "longitude": "26.855137",
+    "latitude": "75.806642",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Chai",
+    "foodItems": "Sandwhich",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "The Juice Bar",
+    
+    "longitude": "26.855425",
+    "latitude": "75.806467",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Jucies",
+    "foodItems": "Shakes",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Jaipur ChatKara",
+    
+    "longitude": "26.855419",
+    "latitude": "75.806746",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Cholde Bhature, Pav Bhaji",
+    "foodItems": "Chats",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Chaat ka Chaska",
+    
+    "longitude": "26.855704",
+    "latitude": "75.806753",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Chat",
+    "foodItems": "Pac Bhaji",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Love Over Coffee",
+    
+    "longitude": "26.855318",
+    "latitude": "75.806893",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Coffee",
+    "foodItems": "Sandwhich",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Grill o Logy",
+    
+    "longitude": "26.855423",
+    "latitude": "75.806843",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Chap",
+    "foodItems": "Momos",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Ice Cream Parlor",
+    
+    "longitude": "26.855405",
+    "latitude": "75.806688",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Ice cream",
+    "foodItems": "Waffles",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Chair Smoker",
+    
+    "longitude": "26.855557",
+    "latitude": "75.807726",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Chai",
+    "foodItems": "",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Bhawani Egg & Pizza House",
+    
+    "longitude": "26.855026",
+    "latitude": "75.807941",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Pizza",
+    "foodItems": "Egg Items",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "J. D's famous Jaljira Soda Shikanji and Mocktail",
+    
+    "longitude": "26.854968",
+    "latitude": "75.808242",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Shikanji",
+    "foodItems": "Mocktail",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Srinatha Pavabhaji",
+    
+    "longitude": "26.855123",
+    "latitude": "75.807922",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pav bhaji",
+    "foodItems": "",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Amrit Juice Junction",
+    
+    "longitude": "26.854984",
+    "latitude": "75.807165",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Juices",
+    "foodItems": "Shakes",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Scoop Troop",
+    
+    "longitude": "26.855092",
+    "latitude": "75.807588",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Ice Cream",
+    "foodItems": "Deserts",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Rudraksh Chinese Corner",
+    
+    "longitude": "26.855181",
+    "latitude": "75.807465",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Chinese Food",
+    "foodItems": "",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Som Momos and Gravy Momos",
+    
+    "longitude": "26.856733",
+    "latitude": "75.806991",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Momos",
+    "foodItems": "Chinese Food",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Pound pulse",
+    
+    "longitude": "26.856777",
+    "latitude": "75.806832",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Pav Bhaji",
+    "foodItems": "",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Redsot Chat Store",
+    
+    "longitude": "26.856716",
+    "latitude": "75.806738",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Pani Puri",
+    "foodItems": "Chat",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Ganpat Burger Center",
+    
+    "longitude": "26.85673",
+    "latitude": "75.806591",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Burger",
+    "foodItems": "",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Papa Razi",
+    
+    "longitude": "26.856732",
+    "latitude": "75.806691",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Chinese Food",
+    "foodItems": "South India Food",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Chat Station",
+    
+    "longitude": "26.856158",
+    "latitude": "75.806602",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Chaat",
+    "foodItems": "Momos",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Jaipur Super Burger",
+    
+    "longitude": "26.855502",
+    "latitude": "75.806316",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Burger",
+    "foodItems": "Pizza, Momos, Coffee",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "The Traditional Indian Kulfi",
+    
+    "longitude": "26.855408",
+    "latitude": "75.806382",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Kulfi",
+    "foodItems": "",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Ice n Spice",
+    
+    "longitude": "26.855877",
+    "latitude": "75.806468",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Lassi, shakes,",
+    "foodItems": "Vad Pav, Pav Bhaji",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Foodz",
+    
+    "longitude": "26.855985",
+    "latitude": "75.806581",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Pizza",
+    "foodItems": "Dosa",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Chinese Corner",
+    
+    "longitude": "26.856105",
+    "latitude": "75.806261",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Chinese Food",
+    "foodItems": "",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "The Sccop Shop",
+    
+    "longitude": "26.856152",
+    "latitude": "75.805928",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Ice Cream",
+    "foodItems": "Boba Tea",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "The Shake Junction",
+    
+    "longitude": "26.856262",
+    "latitude": "75.806053",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Milshake",
+    "foodItems": "Waffle",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Coffee and Corn",
+    
+    "longitude": "26.856252",
+    "latitude": "75.806168",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Coffee",
+    "foodItems": "Corn",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Choudhary Chat Center",
+    
+    "longitude": "26.85626",
+    "latitude": "75.806284",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Pav Bhaji, Vada Pav",
+    "foodItems": "Dabeli, Rolls",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616309/WhatsApp_Image_2025-01-21_at_20.11.42_gmzopq.jpg"
+  },
+  {
+    "name": "Meals for wheels",
+    
+    "longitude": "26.856509",
+    "latitude": "75.806284",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "momos",
+    "foodItems": "meals",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "",
+    
+    "longitude": "26.855137",
+    "latitude": "75.806642",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Pani Puri",
+    "foodItems": "bhel puri",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Sri Krishna Cheese tikka",
+    
+    "longitude": "26.855425",
+    "latitude": "75.806467",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "cheese tikka",
+    "foodItems": "burger",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737911048/WhatsApp_Image_2025-01-21_at_20.11.21_1_wy1wcr.jpg"
+  },
+  {
+    "name": "Mr. Sai Vadapav Centre",
+    
+    "longitude": "26.855419",
+    "latitude": "75.806746",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "vadapav",
+    "foodItems": "vadapav",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616302/WhatsApp_Image_2025-01-21_at_20.11.22_neziqk.jpg"
+  },
+  {
+    "name": "Sheth Khatuwala Foods",
+    
+    "longitude": "26.855704",
+    "latitude": "75.806753",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Coffee",
+    "foodItems": "Sandwhichs",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616301/WhatsApp_Image_2025-01-21_at_20.11.22_1_fmared.jpg"
+  },
+  {
+    "name": "Jai Shree Krishna American Sweet Corn",
+    
+    "longitude": "26.855318",
+    "latitude": "75.806893",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Sweet Corn",
+    "foodItems": "Momos",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616301/WhatsApp_Image_2025-01-21_at_20.11.22_2_jrghxw.jpg"
+  },
+  {
+    "name": "Srinath pav bhaji chowmin",
+    
+    "longitude": "26.855423",
+    "latitude": "75.806843",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pav bhaji",
+    "foodItems": "chowmein",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616302/WhatsApp_Image_2025-01-21_at_20.11.23_iy1upz.jpg"
+  },
+  {
+    "name": "Srinath Chowmeen Pav bhaji",
+    
+    "longitude": "26.855405",
+    "latitude": "75.806688",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "choemen",
+    "foodItems": "pav bhaji",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616302/WhatsApp_Image_2025-01-21_at_20.11.23_1_b9jqk4.jpg"
+  },
+  {
+    "name": "South Indian Balaji Dossa",
+    
+    "longitude": "26.855557",
+    "latitude": "75.807726",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "dossa",
+    "foodItems": "idli",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616303/WhatsApp_Image_2025-01-21_at_20.11.24_dgctal.jpg"
+  },
+  {
+    "name": "momos pizza burger sendwich",
+    
+    "longitude": "26.855026",
+    "latitude": "75.807941",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pizza",
+    "foodItems": "burger sandwich",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616302/WhatsApp_Image_2025-01-21_at_20.11.24_1_ialuyr.jpg"
+  },
+  {
+    "name": "Shri Shyam Paneer Tikka, Soya Chap",
+    
+    "longitude": "26.855123",
+    "latitude": "75.807922",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "paneer rtikka",
+    "foodItems": "soya chaap",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616303/WhatsApp_Image_2025-01-21_at_20.11.25_1_gujsnb.jpg"
+  },
+  {
+    "name": "R.B. Roll Chowmein centre",
+    
+    "longitude": "26.854984",
+    "latitude": "75.807165",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "chowmien",
+    "foodItems": "paneer 65",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616304/WhatsApp_Image_2025-01-21_at_20.11.26_rjuk0z.jpg"
+  },
+  {
+    "name": "NK Momo Centre",
+    
+    "longitude": "26.855704",
+    "latitude": "75.806753",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "momos",
+    "foodItems": "momos",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616304/WhatsApp_Image_2025-01-21_at_20.11.26_1_qpbr4j.jpg"
+  },
+  {
+    "name": "Manohar Singh Punjabi Fish and Chicken Centre",
+    
+    "longitude": "26.855318",
+    "latitude": "75.806893",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "fish",
+    "foodItems": "chicken",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616305/WhatsApp_Image_2025-01-21_at_20.11.27_pcsu7z.jpg"
+  },
+  {
+    "name": "Pandit pav bhaji",
+    
+    "longitude": "26.855423",
+    "latitude": "75.806843",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pav bhaji",
+    "foodItems": "pav bhaji",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616305/WhatsApp_Image_2025-01-21_at_20.11.27_1_zcxguw.jpg"
+  },
+  {
+    "name": "Chat Center",
+    
+    "longitude": "26.8606397",
+    "latitude": "75.7639479",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "bhel chaat",
+    "foodItems": "dahi chaat",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Silu Chat Store",
+    
+    "longitude": "26.855557",
+    "latitude": "75.807726",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "bhel chaat",
+    "foodItems": "tikki chaat",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616306/WhatsApp_Image_2025-01-21_at_20.11.28_cpwwbi.jpg"
+  },
+  {
+    "name": "Jodhpur Pani Puri Centre",
+    
+    "longitude": "26.855026",
+    "latitude": "75.807941",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pani puri",
+    "foodItems": "papdi chaat",
+    "hygieneRating": "3 star",
+    "tasteRating": "3 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616307/WhatsApp_Image_2025-01-21_at_20.11.28_1_imwgne.jpg"
+  },
+  {
+    "name": "Soda Shikjee",
+    
+    "longitude": "26.854968",
+    "latitude": "75.808242",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "soda",
+    "foodItems": "",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616303/WhatsApp_Image_2025-01-21_at_20.11.33_bozpsw.jpg"
+  },
+  {
+    "name": "Bombay Bhel Puri",
+    
+    "longitude": "26.855123",
+    "latitude": "75.807922",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "bhel puri",
+    "foodItems": "bhel puri",
+    "hygieneRating": "4 star",
+    "tasteRating": "3 Star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906860/WhatsApp_Image_2025-01-22_at_19.05.09_oup7gd.jpg"
+  },
+  {
+    "name": "Famous Pandit Pav Bhaji",
+    
+    "longitude": "26°54'29.5\"N",
+    "latitude": "75°48'13.8\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pav bhaji",
+    "foodItems": "pav bhaji",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906863/WhatsApp_Image_2025-01-22_at_19.05.13_1_mjwonp.jpg"
+  },
+  {
+    "name": "Swami South indian",
+    
+    "longitude": "26°53'42.6\"N",
+    "latitude": "75°48'51.6\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "dosa",
+    "foodItems": "idli- sambhar",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906861/WhatsApp_Image_2025-01-22_at_19.05.10_3_un3jtp.jpg"
+  },
+  {
+    "name": "Purana Pandit Pav Bhaji",
+    
+    "longitude": "26°53'42.6\"N",
+    "latitude": "75°48'51.6\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pav bhaji",
+    "foodItems": "pav bhaji",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906862/WhatsApp_Image_2025-01-22_at_19.05.11_1_aaac1n.jpg"
+  },
+  {
+    "name": "Pandit Chole Kulche",
+    
+    "longitude": "26°53'42.6\"N",
+    "latitude": "75°48'51.6\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "chole kulche",
+    "foodItems": "chole kulche",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906863/WhatsApp_Image_2025-01-22_at_19.05.12_1_gkiodp.jpg"
+  },
+  {
+    "name": "Ambala wale ka Gol Gappa",
+    
+    "longitude": "26°53'42.6\"N",
+    "latitude": "75°48'51.6\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "gol gappe",
+    "foodItems": "papdi chaat",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564343/WhatsApp_Image_2025-01-22_at_19.05.13_to2pa0.jpg"
+  },
+  {
+    "name": "Famous Pandit Pav Bhaji",
+    
+    "longitude": "26°53'45.8\"N",
+    "latitude": "75°49'03.5\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pav bhaji",
+    "foodItems": "pab bhaji",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564341/WhatsApp_Image_2025-01-22_at_19.05.10_wbhxjx.jpg"
+  },
+  {
+    "name": "Gupta Burger Centre",
+    
+    "longitude": "26°53'46.9\"N",
+    "latitude": "75°49'49.0\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "burger",
+    "foodItems": "burger",
+    "hygieneRating": "5 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906866/WhatsApp_Image_2025-01-22_at_19.05.14_lhniey.jpg"
+  },
+  {
+    "name": "God Baba Patashi Centre",
+    
+    "longitude": "26°53'54.3\"N",
+    "latitude": "75°50'02.0\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "patashi",
+    "foodItems": "pani puri",
+    "hygieneRating": "5 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906865/WhatsApp_Image_2025-01-22_at_19.05.14_1_eijnnx.jpg"
+  },
+  {
+    "name": "Sahuji Famous Chana",
+    
+    "longitude": "26°53'46.8\"N",
+    "latitude": "75°50'11.3\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "chana chaat",
+    "foodItems": "chana chaat",
+    "hygieneRating": "5 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906862/WhatsApp_Image_2025-01-22_at_19.05.18_2_k3y5jg.jpg"
+  },
+  {
+    "name": "Sanskriti Chaat",
+    
+    "longitude": "26°53'41.8\"N",
+    "latitude": "75°49'47.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "chaat",
+    "foodItems": "chaat",
+    "hygieneRating": "5 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906861/WhatsApp_Image_2025-01-22_at_19.05.18_1_np2eec.jpg"
+  },
+  {
+    "name": "Bear On Veg Biryani",
+    
+    "longitude": "26°53'41.8\"N",
+    "latitude": "75°49'47.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "biryani",
+    "foodItems": "biryani",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906863/WhatsApp_Image_2025-01-22_at_19.05.19_2_j9jqkm.jpg"
+  },
+  {
+    "name": "Falafel House",
+    
+    "longitude": "26°53'41.8\"N",
+    "latitude": "75°49'47.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "falafel",
+    "foodItems": "falafel",
+    "hygieneRating": "5 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906863/WhatsApp_Image_2025-01-22_at_19.05.19_3_rkupi3.jpg"
+  },
+  {
+    "name": "Shri Shyam Pav Bhaji",
+    
+    "longitude": "26°53'41.8\"N",
+    "latitude": "75°49'47.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pav bhaji",
+    "foodItems": "pav bhaji",
+    "hygieneRating": "5 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906864/WhatsApp_Image_2025-01-22_at_19.05.20_ti1aii.jpg"
+  },
+  {
+    "name": "Dilli ke mashur thande dahi bhalle, papdi chaat",
+    
+    "longitude": "26°53'41.8\"N",
+    "latitude": "75°49'47.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "dahi bhalle",
+    "foodItems": "papdi chaat",
+    "hygieneRating": "5 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906866/WhatsApp_Image_2025-01-22_at_19.05.22_abncal.jpg"
+  },
+  {
+    "name": "Pasta.comm",
+    
+    "longitude": "26°53'41.8\"N",
+    "latitude": "75°49'47.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pasta",
+    "foodItems": "pasta",
+    "hygieneRating": "5 star",
+    "tasteRating": "3 Star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906865/WhatsApp_Image_2025-01-22_at_19.05.22_3_d43urd.jpg"
+  },
+  {
+    "name": "Dev Bhumi Uttrakhand",
+    
+    "longitude": "26°53'41.8\"N",
+    "latitude": "75°49'47.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Manchurian rice",
+    "foodItems": "manchurain rice",
+    "hygieneRating": "5 star",
+    "tasteRating": "3 Star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906867/WhatsApp_Image_2025-01-22_at_19.05.23_luh7a9.jpg"
+  },
+  {
+    "name": "Wao wada pav",
+    
+    "longitude": "26°53'42.2\"N",
+    "latitude": "75°49'45.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "vada pav",
+    "foodItems": "vada pav",
+    "hygieneRating": "3 Star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564344/WhatsApp_Image_2025-01-22_at_19.05.23_1_zurdkk.jpg"
+  },
+  {
+    "name": "Masala Dosa Idli Sambhar",
+    
+    "longitude": "26°53'42.3\"N",
+    "latitude": "75°49'45.3\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "dosa",
+    "foodItems": "idli sambhar",
+    "hygieneRating": "3 Star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906867/WhatsApp_Image_2025-01-22_at_19.05.24_1_bb7iiq.jpg"
+  },
+  {
+    "name": "Sikora Tea",
+    
+    "longitude": "26°53'42.6\"N",
+    "latitude": "75°49'44.7\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "tea",
+    "foodItems": "tea",
+    "hygieneRating": "3 Star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564344/WhatsApp_Image_2025-01-22_at_19.05.25_mocgob.jpg"
+  },
+  {
+    "name": "6 Flavour Ka Pana",
+    
+    "longitude": "26°53'42.7\"N",
+    "latitude": "75°49'44.3\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Pani Puri",
+    "foodItems": "pani puri",
+    "hygieneRating": "3 Star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564344/WhatsApp_Image_2025-01-22_at_19.05.25_1_tgxhe8.jpg"
+  },
+  {
+    "name": "Romys",
+    
+    "longitude": "26°53'43.1\"N",
+    "latitude": "75°49'43.2\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Chili Chicken, fried rice",
+    "foodItems": "Momos",
+    "hygieneRating": "3 Star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906869/WhatsApp_Image_2025-01-22_at_19.05.26_mfbjga.jpg"
+  },
+  {
+    "name": "Special Dal Ke Pakode",
+    
+    "longitude": "26°53'47.4\"N",
+    "latitude": "75°49'30.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "daal ke pakode",
+    "foodItems": "daal ke pakode",
+    "hygieneRating": "3 Star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906869/WhatsApp_Image_2025-01-22_at_19.05.26_4_oefopq.jpg"
+  },
+  {
+    "name": "Shri Krishna Parantha centre",
+    
+    "longitude": "26°54'54.8\"N",
+    "latitude": "75°48'21.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "parantha",
+    "foodItems": "parantha",
+    "hygieneRating": "3 Star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564345/WhatsApp_Image_2025-01-22_at_19.05.26_2_ryq5u8.jpg"
+  },
+  {
+    "name": "Pintu bhai mumbai ka wada pav",
+    
+    "longitude": "26°54'53.5\"N",
+    "latitude": "75°48'21.3\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "vada pav",
+    "foodItems": "vada pav",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564345/WhatsApp_Image_2025-01-22_at_19.05.28_ubul6h.jpg"
+  },
+  {
+    "name": "Shri ganesh Chaat Bhandar",
+    
+    "longitude": "26°54'53.5\"N",
+    "latitude": "75°48'21.3\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "chaat",
+    "foodItems": "chaat",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564346/WhatsApp_Image_2025-01-22_at_19.05.28_1_c9unvx.jpg"
+  },
+  {
+    "name": "Anil Gol Gappa",
+    
+    "longitude": "26°54'47.8\"N",
+    "latitude": "75°48'11.6\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "gol gappe",
+    "foodItems": "chaat",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906869/WhatsApp_Image_2025-01-22_at_19.05.29_2_fvdw3m.jpg"
+  },
+  {
+    "name": "Rohit bhaiya Mumbai",
+    
+    "longitude": "26°54'47.6\"N",
+    "latitude": "75°48'11.7\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "vada pav",
+    "foodItems": "Masala Pav",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906869/WhatsApp_Image_2025-01-22_at_19.05.29_1_is11is.jpg"
+  },
+  {
+    "name": "Dili Nathar Chole Kulche",
+    
+    "longitude": "26°53'36.7\"N",
+    "latitude": "75°44'45.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "chole kulche",
+    "foodItems": "chole kulche",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Anchal Chaat Bhandar",
+    
+    "longitude": "26°52'18.5\"N",
+    "latitude": "75°41'58.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "chaat",
+    "foodItems": "chaat",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737909553/WhatsApp_Image_2025-01-22_at_19.05.30_1_esrzia.jpg"
+  },
+  {
+    "name": "Balaji fast food centre",
+    
+    "longitude": "26°52'20.7\"N",
+    "latitude": "75°41'48.0\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Samosa",
+    "foodItems": "Kaachori",
+    "hygieneRating": "4 star",
+    "tasteRating": "3 Star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737911922/WhatsApp_Image_2025-01-22_at_19.05.30_5_ybh5c9.jpg"
+  },
+  {
+    "name": "Shri Balaji Fast food",
+    
+    "longitude": "26°52'22.3\"N",
+    "latitude": "75°41'43.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "French Fries",
+    "foodItems": "Honey Chilli Patato",
+    "hygieneRating": "3 Star",
+    "tasteRating": "3 Star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737912063/WhatsApp_Image_2025-01-22_at_19.05.31_2_wtssgl.jpg"
+  },
+  {
+    "name": "Mahakal Fast food",
+    
+    "longitude": "26°52'23.5\"N ",
+    "latitude": "75°41'39.6\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Burger",
+    "foodItems": "",
+    "hygieneRating": "3 Star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737912064/WhatsApp_Image_2025-01-22_at_19.05.31_3_mihond.jpg"
+  },
+  {
+    "name": "Rahul Patashi Centre",
+    
+    "longitude": "26°52'25.7\"N",
+    "latitude": "75°41'34.2\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pani puri",
+    "foodItems": "pani puri",
+    "hygieneRating": "3 Star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737912065/WhatsApp_Image_2025-01-22_at_19.05.32_1_exkwur.jpg"
+  },
+  {
+    "name": "Bajali Patashi Centre",
+    
+    "longitude": "26°54'06.0\"N ",
+    "latitude": "75°46'28.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pani puri",
+    "foodItems": "pani puri",
+    "hygieneRating": "3 Star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737567407/WhatsApp_Image_2025-01-21_at_19.10.54_t63ped.jpg"
+  },
+  {
+    "name": "Gupta Ji Chaat Bhandar",
+    
+    "longitude": "26°53'49.1\"N",
+    "latitude": "75°46'15.0\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "papdi chaat",
+    "foodItems": "dahi chaat",
+    "hygieneRating": "3 Star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737567407/WhatsApp_Image_2025-01-21_at_19.11.10_tzcswy.jpg"
+  },
+  {
+    "name": "Amratsari Naan Kulche",
+    
+    "longitude": "26°53'44.2\"N",
+    "latitude": "75°46'13.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "amritsari naan kulche",
+    "foodItems": "amritsari naan kulche",
+    "hygieneRating": "3 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737567407/WhatsApp_Image_2025-01-21_at_19.11.11_azenhh.jpg"
+  },
+  {
+    "name": "Parvat Patashi",
+    
+    "longitude": "26°53'32.8\"N",
+    "latitude": "\r\n 75°46'09.7\"E\r\n",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "patashi",
+    "foodItems": "pani puri",
+    "hygieneRating": "3 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737567408/WhatsApp_Image_2025-01-21_at_19.11.12_m6np8j.jpg"
+  },
+  {
+    "name": "Shri Krishna Parantha centre",
+    
+    "longitude": "26°54'54.8\"N",
+    "latitude": "75°48'21.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "parantha",
+    "foodItems": "parantha",
+    "hygieneRating": "3 Star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564345/WhatsApp_Image_2025-01-22_at_19.05.26_2_ryq5u8.jpg"
+  },
+  {
+    "name": "Pintu bhai mumbai ka wada pav",
+    
+    "longitude": "26°54'53.5\"N",
+    "latitude": "75°48'21.3\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "vada pav",
+    "foodItems": "vada pav",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564345/WhatsApp_Image_2025-01-22_at_19.05.28_ubul6h.jpg"
+  },
+  {
+    "name": "Shri ganesh Chaat Bhandar",
+    
+    "longitude": "26°54'53.5\"N",
+    "latitude": "75°48'21.3\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "chaat",
+    "foodItems": "chaat",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737564346/WhatsApp_Image_2025-01-22_at_19.05.28_1_c9unvx.jpg"
+  },
+  {
+    "name": "Anil Gol Gappa",
+    
+    "longitude": "26°54'47.8\"N",
+    "latitude": "75°48'11.6\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "gol gappe",
+    "foodItems": "chaat",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906869/WhatsApp_Image_2025-01-22_at_19.05.29_2_fvdw3m.jpg"
+  },
+  {
+    "name": "Rohit bhaiya Mumbai",
+    
+    "longitude": "26°54'47.6\"N",
+    "latitude": "75°48'11.7\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "vada pav",
+    "foodItems": "Masala Pav",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737906869/WhatsApp_Image_2025-01-22_at_19.05.29_1_is11is.jpg"
+  },
+  {
+    "name": "Dili Nathar Chole Kulche",
+    
+    "longitude": "26°53'36.7\"N",
+    "latitude": "75°44'45.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "chole kulche",
+    "foodItems": "chole kulche",
+    "hygieneRating": "4 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": ""
+  },
+  {
+    "name": "Anchal Chaat Bhandar",
+    
+    "longitude": "26°52'18.5\"N",
+    "latitude": "75°41'58.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "chaat",
+    "foodItems": "chaat",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737909553/WhatsApp_Image_2025-01-22_at_19.05.30_1_esrzia.jpg"
+  },
+  {
+    "name": "Balaji fast food centre",
+    
+    "longitude": "26°52'20.7\"N",
+    "latitude": "75°41'48.0\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Samosa",
+    "foodItems": "Kaachori",
+    "hygieneRating": "4 star",
+    "tasteRating": "3 Star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737911922/WhatsApp_Image_2025-01-22_at_19.05.30_5_ybh5c9.jpg"
+  },
+  {
+    "name": "Shri Balaji Fast food",
+    
+    "longitude": "26°52'22.3\"N",
+    "latitude": "75°41'43.1\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "French Fries",
+    "foodItems": "Honey Chilli Patato",
+    "hygieneRating": "3 Star",
+    "tasteRating": "3 Star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737912063/WhatsApp_Image_2025-01-22_at_19.05.31_2_wtssgl.jpg"
+  },
+  {
+    "name": "Mahakal Fast food",
+    
+    "longitude": "26°52'23.5\"N ",
+    "latitude": "75°41'39.6\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "Burger",
+    "foodItems": "",
+    "hygieneRating": "3 Star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737912064/WhatsApp_Image_2025-01-22_at_19.05.31_3_mihond.jpg"
+  },
+  {
+    "name": "Rahul Patashi Centre",
+    
+    "longitude": "26°52'25.7\"N",
+    "latitude": "75°41'34.2\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pani puri",
+    "foodItems": "pani puri",
+    "hygieneRating": "3 Star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737912065/WhatsApp_Image_2025-01-22_at_19.05.32_1_exkwur.jpg"
+  },
+  {
+    "name": "Bajali Patashi Centre",
+    
+    "longitude": "26°54'06.0\"N ",
+    "latitude": "75°46'28.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pani puri",
+    "foodItems": "pani puri",
+    "hygieneRating": "3 Star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737567407/WhatsApp_Image_2025-01-21_at_19.10.54_t63ped.jpg"
+  },
+  {
+    "name": "Gupta Ji Chaat Bhandar",
+    
+    "longitude": "26°53'49.1\"N",
+    "latitude": "75°46'15.0\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "papdi chaat",
+    "foodItems": "dahi chaat",
+    "hygieneRating": "3 Star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737567407/WhatsApp_Image_2025-01-21_at_19.11.10_tzcswy.jpg"
+  },
+  {
+    "name": "Amratsari Naan Kulche",
+    
+    "longitude": "26°53'44.2\"N",
+    "latitude": "75°46'13.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "amritsari naan kulche",
+    "foodItems": "amritsari naan kulche",
+    "hygieneRating": "3 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "5 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737567407/WhatsApp_Image_2025-01-21_at_19.11.11_azenhh.jpg"
+  },
+  {
+    "name": "Jai shree balaji snakcks",
+    
+    "longitude": "26°53'44.2\"N",
+    "latitude": "75°46'13.9\"E",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "patashi",
+    "foodItems": "pani puri",
+    "hygieneRating": "3 star",
+    "tasteRating": "5 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737567408/WhatsApp_Image_2025-01-21_at_19.11.12_m6np8j.jpg"
+  },
+  {
+    "name": "Shree devnarayan pani puri",
+    
+    "longitude": "26.9112469,",
+    "latitude": "75.7411673",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "pani puri",
+    "foodItems": "bhel",
+    "hygieneRating": "3 Star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616301/WhatsApp_Image_2025-01-21_at_20.11.21_stmiig.jpg"
+  },
+  {
+    "name": "shree krishna paneer tikka",
+    
+    "longitude": "26.9112469,",
+    "latitude": "75.7411673",
+    "City": "Jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "paneer tikka",
+    "foodItems": "paneer tikka",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "3 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737911048/WhatsApp_Image_2025-01-21_at_20.11.21_1_wy1wcr.jpg"
+  },
+  {
+    "name": "shre sai vada pav",
+    
+    "longitude": "26.9115020,",
+    "latitude": "75.7414265",
+    "City": "jaipur",
+    "State": "Rajasthan",
+    "foodItems-": "vada pav",
+    "foodItems": "dabelii",
+    "hygieneRating": "4 star",
+    "tasteRating": "4 star",
+    "hospitalityRating": "4 star",
+    "photoUrl": "https://res.cloudinary.com/drwzldebq/image/upload/v1737616302/WhatsApp_Image_2025-01-21_at_20.11.22_neziqk.jpg"
+  }
+]
