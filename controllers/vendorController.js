@@ -176,3 +176,50 @@ export const getVendorById = async (req, res) => {
     res.status(500).json({ success: false, message: 'Server Error', error });
   }
 };
+
+
+export const getFilteredVendors = async (req, res) => {
+  try {
+    const { preferences, minStars = 5 } = req.body;
+
+    if (!preferences || preferences.length === 0) {
+      return res.status(400).json({ success: false, message: "No preferences provided." });
+    }
+
+    // Map from frontend filter names to database field names
+    const preferenceToField = {
+      Taste: "tasteRating",
+      Hygiene: "hygieneRating",
+      Hospitality: "hospitalityRating",
+    };
+
+    // Create dynamic MongoDB filter
+    const filter = {};
+    preferences.forEach((pref) => {
+      const field = preferenceToField[pref];
+      if (field) {
+        // Rating is stored like "3 star", so build query accordingly
+        filter[field] = { $regex: new RegExp(`^(${minStars}|[${minStars}-5]) star$`, "i") };
+      }
+    });
+
+    // Query all vendor collections in parallel
+    const [bengal, maharashtra, rajasthan] = await Promise.all([
+      BengalVendor.find(filter),
+      maharashtraVendor.find(filter),
+      rajasthanVendor.find(filter),
+    ]);
+
+    const allVendors = [
+      ...bengal.map(v => ({ ...v._doc, state: "West Bengal" })),
+      ...maharashtra.map(v => ({ ...v._doc, state: "Maharashtra" })),
+      ...rajasthan.map(v => ({ ...v._doc, state: "Rajasthan" })),
+    ];
+
+    res.json({ success: true, data: allVendors });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ success: false, message: "Server Error" });
+  }
+};
+
