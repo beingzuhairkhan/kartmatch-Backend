@@ -15,7 +15,7 @@ const formSchema = new mongoose.Schema({
   },
   mark:{
     type: Boolean,
-    required: true 
+   // required: true 
   },
   message: {
     type: String,
