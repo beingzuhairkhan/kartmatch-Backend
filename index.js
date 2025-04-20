@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 import vendorRoutes from './routes/vendorRoutes.js'
-
+import formRoutes from './routes/formRoutes.js'
 dotenv.config();
 
 const app = express();
@@ -23,7 +23,7 @@ mongoose.connect("mongodb+srv://zuhairk7890o:Jhq7kruiceEMpoQT@cluster0.703rvj7.m
 
 // Routes
 app.use("/api", vendorRoutes);
-
+app.use('/api/forms', formRoutes);
 app.get("/", (req, res) => {
     res.send("🍽️ Kart Match API is running...");
 });
