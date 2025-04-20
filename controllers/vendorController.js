@@ -140,3 +140,39 @@ export const getNearbyVendors = async (req, res) => {
     res.status(500).json({ success: false, message: 'Server Error', error });
   }
 }
+
+
+export const getVendorById = async (req, res) => {
+  try {
+    const { vendorId } = req.params; // Getting vendor ID from request params
+
+    // First, check if the vendor ID exists
+    if (!vendorId) {
+      return res.status(400).json({ message: 'Vendor ID is required.' });
+    }
+
+    // Assuming you're querying multiple vendor collections (Bengal, Maharashtra, Rajasthan)
+    const vendorData = await Promise.all([
+      BengalVendor.findById(vendorId),
+      maharashtraVendor.findById(vendorId),
+      rajasthanVendor.findById(vendorId),
+    ]);
+
+    // Filter out null results (if vendor not found in any of the collections)
+    const vendor = vendorData.find(v => v !== null);
+
+    if (!vendor) {
+      return res.status(404).json({ message: 'Vendor not found.' });
+    }
+
+    // Return vendor details
+    res.status(200).json({
+      success: true,
+      data: vendor,
+    });
+
+  } catch (error) {
+    console.error('Error fetching vendor details:', error);
+    res.status(500).json({ success: false, message: 'Server Error', error });
+  }
+};
