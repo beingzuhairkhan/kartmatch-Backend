@@ -11,8 +11,10 @@ const formSchema = new mongoose.Schema({
   },
   emailId: {
     type: String,
-    required: true 
-  },
+    required: true,
+    match: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+  }
+  
   mark:{
     type: Boolean,
    // required: true 
