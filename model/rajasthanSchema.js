@@ -25,7 +25,8 @@ const rajasthanVendorSchema = new mongoose.Schema({
   photoUrl: String,
 });
 
-rajasthanVendorSchema.index({ location: '2dsphere' });
+ rajasthanVendorSchema.index({ location: '2dsphere' });
+//rajasthanVendorSchema.index({ "location.coordinates": "2dsphere" });
 
 const RajasthanVendor = mongoose.model('RajasthanVendor', rajasthanVendorSchema);
 export default RajasthanVendor;

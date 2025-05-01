@@ -25,7 +25,8 @@ const bengalVendorSchema = new mongoose.Schema({
   photoUrl: String,
 });
 
-bengalVendorSchema.index({ location: '2dsphere' });
+ bengalVendorSchema.index({ location: '2dsphere' });
+//bengalVendorSchema.index({ "location.coordinates": "2dsphere" });
 
 const BengalVendor = mongoose.model('BengalVendor', bengalVendorSchema);
 export default BengalVendor;

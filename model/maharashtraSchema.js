@@ -18,6 +18,7 @@ const maharashtraVendorSchema = new mongoose.Schema({
   },
   city: String,
   state: String,
+  // categories: String,
   foodItems: [String],
   hygieneRating: String,
   tasteRating: String,
@@ -25,7 +26,8 @@ const maharashtraVendorSchema = new mongoose.Schema({
   photoUrl: String,
 });
 
-maharashtraVendorSchema.index({ location: '2dsphere' });
+ maharashtraVendorSchema.index({ location: '2dsphere' });
+//maharashtraVendorSchema.index({ "location.coordinates": "2dsphere" });
 
 const MaharashtraVendor = mongoose.model('MaharashtraVendor', maharashtraVendorSchema);
 export default MaharashtraVendor;

@@ -1,36 +1,99 @@
-import BengalVendor from '../model/bengalSchema.js'
-import maharashtraVendor from '../model/maharashtraSchema.js'
-import rajasthanVendor from '../model/rajasthanSchema.js'
+import BengalVendor from '../model/bengalSchema.js';
+import maharashtraVendor from '../model/maharashtraSchema.js';
+import rajasthanVendor from '../model/rajasthanSchema.js';
 
-// INSERT MULTIPLE VENDORS
+// Utility to parse both decimal & DMS coordinates
+// Helper to parse individual coordinates
+
+
+const parseCoordinate = (coordinateStr) => {
+  if (!coordinateStr || typeof coordinateStr !== 'string') return null;
+
+  const cleanedStr = coordinateStr.trim().replace(/\s+/g, '');
+
+  // Match decimal format with direction (e.g., "19.2836N")
+  const decimalMatch = cleanedStr.match(/^([\d.]+)[°*"']?([NSWE])$/i);
+  if (decimalMatch) {
+    let value = parseFloat(decimalMatch[1]);
+    const direction = decimalMatch[2].toUpperCase();
+    if (['S', 'W'].includes(direction)) value *= -1;
+    return Math.round(value * 1e5) / 1e5;
+  }
+
+  // Match DMS format like 26*15'44"N or 26°15′44″N
+  const dmsMatch = cleanedStr.match(/^(\d+)[°*](\d+)[′'](\d+)[″"]?([NSWE])$/i);
+  if (dmsMatch) {
+    const degrees = parseInt(dmsMatch[1]);
+    const minutes = parseInt(dmsMatch[2]);
+    const seconds = parseInt(dmsMatch[3]);
+    const direction = dmsMatch[4].toUpperCase();
+
+    let decimal = degrees + minutes / 60 + seconds / 3600;
+    if (['S', 'W'].includes(direction)) decimal *= -1;
+    return Math.round(decimal * 1e5) / 1e5;
+  }
+
+  // Fallback: parse as raw float
+  const plain = parseFloat(coordinateStr);
+  return isNaN(plain) ? null : Math.round(plain * 1e5) / 1e5;
+};
+
+// GeoJSON format is [longitude, latitude]
+const toCoordinates = (latStr, lngStr) => {
+  const lat = parseCoordinate(latStr);
+  const lng = parseCoordinate(lngStr);
+  return [lng, lat];
+};
+
 export const insertVendors = async (req, res) => {
   try {
     const vendors = req.body;
 
-    // Convert foodItems string to array (if needed) and ensure coordinates are valid numbers
-    const formattedVendors = vendors.map(vendor => ({
-      name: vendor.name,
-      location: {
-        type: "Point",
-        coordinates: [
-          parseFloat(vendor.longitude), // longitude
-          parseFloat(vendor.latitude),  // latitude
-        ],
-      },
-      city: vendor.city || vendor.City,
-      state: vendor.state || vendor.State,
-      foodItems: vendor.foodItems
-        ? Array.isArray(vendor.foodItems)
-          ? vendor.foodItems
-          : vendor.foodItems.split(',').map(item => item.trim())
-        : [],
-      hygieneRating: vendor.hygiene || vendor.hygieneRating,
-      tasteRating: vendor.taste || vendor.tasteRating,
-      hospitalityRating: vendor.hospitality || vendor.hospitalityRating,
-      photoUrl: vendor.photoUrl,
-    }));
+    const validVendors = vendors
+      .map((vendor) => {
+        const [longitude, latitude] = toCoordinates(vendor.latitude, vendor.longitude);
 
-    const inserted = await rajasthanVendor.insertMany(formattedVendors);
+        if (longitude === null || latitude === null) {
+          console.log('Invalid coordinates for vendor:', vendor.name);
+          return null;
+        }
+
+        const hygieneRating = isNaN(vendor.hygiene) ? vendor.hygiene : parseFloat(vendor.hygiene);
+        const tasteRating = isNaN(vendor.taste) ? vendor.taste : parseFloat(vendor.taste);
+        const hospitalityRating = isNaN(vendor.hospitality)
+          ? vendor.hospitality
+          : parseFloat(vendor.hospitality);
+
+        return {
+          name: vendor.name,
+          location: {
+            type: 'Point',
+            coordinates: [longitude, latitude],
+          },
+          city: vendor.city || vendor.City,
+          state: vendor.state || vendor.State,
+          categories: vendor.categories || vendor.Categories,
+          foodItems: vendor.foodItems
+            ? Array.isArray(vendor.foodItems)
+              ? vendor.foodItems
+              : vendor.foodItems.split(',').map((item) => item.trim())
+            : [],
+            hygieneRating: vendor.hygiene || vendor.hygieneRating,
+            tasteRating: vendor.taste || vendor.tasteRating,
+            hospitalityRating: vendor.hospitality || vendor.hospitalityRating,
+            photoUrl: vendor.photoUrl,
+        };
+      })
+      .filter(Boolean);
+
+    if (validVendors.length === 0) {
+      return res.status(400).json({
+        success: false,
+        message: 'No valid vendors found with valid coordinates.',
+      });
+    }
+
+    const inserted = await rajasthanVendor.insertMany(validVendors);
 
     res.status(201).json({
       success: true,
@@ -46,6 +109,53 @@ export const insertVendors = async (req, res) => {
     });
   }
 };
+
+
+
+// export const insertVendors = async (req, res) => {
+//   try {
+//     const vendors = req.body;
+
+//     // Convert foodItems string to array (if needed) and ensure coordinates are valid numbers
+//     const formattedVendors = vendors.map(vendor => ({
+//       name: vendor.name,
+//       location: {
+//         type: "Point",
+//         coordinates: [
+//           parseFloat(vendor.longitude), // longitude
+//           parseFloat(vendor.latitude),  // latitude
+//         ],
+//       },
+//       city: vendor.city || vendor.City,
+//       state: vendor.state || vendor.State,
+//       foodItems: vendor.foodItems
+//         ? Array.isArray(vendor.foodItems)
+//           ? vendor.foodItems
+//           : vendor.foodItems.split(',').map(item => item.trim())
+//         : [],
+//       hygieneRating: vendor.hygiene || vendor.hygieneRating,
+//       tasteRating: vendor.taste || vendor.tasteRating,
+//       hospitalityRating: vendor.hospitality || vendor.hospitalityRating,
+//       photoUrl: vendor.photoUrl,
+//     }));
+
+//     const inserted = await maharashtraVendor.insertMany(formattedVendors);
+
+//     res.status(201).json({
+//       success: true,
+//       message: 'Vendors inserted successfully',
+//       data: inserted,
+//     });
+//   } catch (error) {
+//     console.error('Insertion failed:', error.message);
+//     res.status(500).json({
+//       success: false,
+//       message: 'Insertion failed',
+//       error: error.message,
+//     });
+//   }
+// };
+
 
 export const fetchVendorsData = async (req , res)=>{
   try{
@@ -95,38 +205,59 @@ export const fetchVendorsData = async (req , res)=>{
 // fetch vendors data 
 
 export const getNearbyVendors = async (req, res) => {
+  try {
+    const { lat, lng, radius = 5 } = req.query;
 
-  try{
-    const { lat, lng, radius = 5 }  = req.query
     if (!lat || !lng) {
-      return res.status(400).json({ message: 'Latitude and Longitude are required.' });
+      return res.status(400).json({ success: false, message: 'Latitude and Longitude are required.' });
     }
 
-    const userCoordinates = [parseFloat(lng), parseFloat(lat)];
-    const maxDistanceInMeters = parseFloat(radius) * 1000; // Convert km to meters
+    const latitude = parseFloat(lat);
+    const longitude = parseFloat(lng);
+    const searchRadius = parseFloat(radius);  // Radius in kilometers
 
-    // Common geoNear pipeline
-    const geoNearPipeline = (stateName) => ([
-      {
-        $geoNear: {
-          near: { type: 'Point', coordinates: userCoordinates },
-          distanceField: 'distance',
-          maxDistance: maxDistanceInMeters,
-          spherical: true,
+    if (isNaN(latitude) || isNaN(longitude) || isNaN(searchRadius)) {
+      return res.status(400).json({ success: false, message: 'Invalid latitude, longitude, or radius format.' });
+    }
+
+    const maxDistanceInMeters = searchRadius * 1000;  // Convert to meters
+
+    // Debug log to check the values
+    console.log('User Coordinates:', [longitude, latitude]);
+    console.log('Max Distance (meters):', maxDistanceInMeters);
+
+    // Using .find() with geospatial query
+    const bengalVendors = await BengalVendor.find({
+      location: {
+        $near: {
+          $geometry: { type: 'Point', coordinates: [longitude, latitude] },
+          $maxDistance: maxDistanceInMeters,
         },
       },
-      {
-        $addFields: {
-          state: stateName,
+    });
+
+    const maharashtraVendors = await maharashtraVendor.find({
+      location: {
+        $near: {
+          $geometry: { type: 'Point', coordinates: [longitude, latitude] },
+          $maxDistance: maxDistanceInMeters,
         },
       },
-    ]);
-    const [bengal, maharashtra, rajasthan] = await Promise.all([
-      BengalVendor.aggregate(geoNearPipeline('West Bengal')),
-      maharashtraVendor.aggregate(geoNearPipeline('Maharashtra')),
-      rajasthanVendor.aggregate(geoNearPipeline('Rajasthan')),
-    ]);
-    const allNearby = [...bengal, ...maharashtra, ...rajasthan];
+    });
+
+    const rajasthanVendors = await rajasthanVendor.find({
+      location: {
+        $near: {
+          $geometry: { type: 'Point', coordinates: [longitude, latitude] },
+          $maxDistance: maxDistanceInMeters,
+        },
+      },
+    });
+
+    // Combine all vendors from different states
+    const allNearby = [...bengalVendors, ...maharashtraVendors, ...rajasthanVendors];
+
+    // Sort by distance (assuming distance is calculated)
     allNearby.sort((a, b) => a.distance - b.distance);
 
     res.status(200).json({
@@ -135,11 +266,52 @@ export const getNearbyVendors = async (req, res) => {
       data: allNearby,
     });
 
-  }catch(error){
+  } catch (error) {
     console.error('Nearby vendor fetch failed:', error);
-    res.status(500).json({ success: false, message: 'Server Error', error });
+    res.status(500).json({ success: false, message: 'Internal server error.', error: error.message });
   }
-}
+};
+// export const getNearbyVendors = async (req, res) => {
+//   try {
+//     const { lat, lng, radius = 5 } = req.query;
+
+//     if (!lat || !lng) {
+//       return res.status(400).json({ success: false, message: 'Latitude and Longitude are required.' });
+//     }
+
+//     const latitude = parseFloat(lat);
+//     const longitude = parseFloat(lng);
+//     const searchRadius = parseFloat(radius);
+
+//     if (isNaN(latitude) || isNaN(longitude) || isNaN(searchRadius)) {
+//       return res.status(400).json({ success: false, message: 'Invalid latitude, longitude, or radius format.' });
+//     }
+
+//     const maxDistanceInMeters = searchRadius * 1000;
+//     const userCoordinates = [longitude, latitude];
+
+//     const rajasthanVendors = await rajasthanVendor.aggregate([
+//       {
+//         $geoNear: {
+//           near: { type: 'Point', coordinates: userCoordinates },
+//           distanceField: 'distance',
+//           maxDistance: maxDistanceInMeters,
+//           spherical: true,
+//         },
+//       },
+//     ]);
+
+//     res.status(200).json({
+//       success: true,
+//       totalResults: rajasthanVendors.length,
+//       data: rajasthanVendors,
+//     });
+
+//   } catch (error) {
+//     console.error('Rajasthan vendor fetch failed:', error);
+//     res.status(500).json({ success: false, message: 'Internal server error.', error: error.message });
+//   }
+// };
 
 
 export const getVendorById = async (req, res) => {
@@ -223,3 +395,29 @@ export const getFilteredVendors = async (req, res) => {
   }
 };
 
+
+export const fixRajasthanCoordinates = async (req, res) => {
+  try {
+    const result = await rajasthanVendor.updateMany(
+      {},
+      [
+        {
+          $set: {
+            'location.coordinates': {
+              $reverseArray: '$location.coordinates',
+            },
+          },
+        },
+      ]
+    );
+
+    res.status(200).json({
+      success: true,
+      message: 'Coordinates reversed for all Rajasthan vendors.',
+      modifiedCount: result.modifiedCount,
+    });
+  } catch (error) {
+    console.error('Error fixing coordinates:', error);
+    res.status(500).json({ success: false, message: 'Server error', error: error.message });
+  }
+};
