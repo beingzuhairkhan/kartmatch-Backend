@@ -93,7 +93,7 @@ export const insertVendors = async (req, res) => {
       });
     }
 
-    const inserted = await rajasthanVendor.insertMany(validVendors);
+    const inserted = await BengalVendor.insertMany(validVendors);
 
     res.status(201).json({
       success: true,
@@ -271,47 +271,7 @@ export const getNearbyVendors = async (req, res) => {
     res.status(500).json({ success: false, message: 'Internal server error.', error: error.message });
   }
 };
-// export const getNearbyVendors = async (req, res) => {
-//   try {
-//     const { lat, lng, radius = 5 } = req.query;
 
-//     if (!lat || !lng) {
-//       return res.status(400).json({ success: false, message: 'Latitude and Longitude are required.' });
-//     }
-
-//     const latitude = parseFloat(lat);
-//     const longitude = parseFloat(lng);
-//     const searchRadius = parseFloat(radius);
-
-//     if (isNaN(latitude) || isNaN(longitude) || isNaN(searchRadius)) {
-//       return res.status(400).json({ success: false, message: 'Invalid latitude, longitude, or radius format.' });
-//     }
-
-//     const maxDistanceInMeters = searchRadius * 1000;
-//     const userCoordinates = [longitude, latitude];
-
-//     const rajasthanVendors = await rajasthanVendor.aggregate([
-//       {
-//         $geoNear: {
-//           near: { type: 'Point', coordinates: userCoordinates },
-//           distanceField: 'distance',
-//           maxDistance: maxDistanceInMeters,
-//           spherical: true,
-//         },
-//       },
-//     ]);
-
-//     res.status(200).json({
-//       success: true,
-//       totalResults: rajasthanVendors.length,
-//       data: rajasthanVendors,
-//     });
-
-//   } catch (error) {
-//     console.error('Rajasthan vendor fetch failed:', error);
-//     res.status(500).json({ success: false, message: 'Internal server error.', error: error.message });
-//   }
-// };
 
 
 export const getVendorById = async (req, res) => {
