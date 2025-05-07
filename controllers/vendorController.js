@@ -355,7 +355,7 @@ export const getVendorById = async (req, res) => {
 
 export const getFilteredVendors = async (req, res) => {
   try {
-    const { preferences, minStars = 4 } = req.body;
+    const { preferences, minStars = 5 } = req.body;
 
     if (!preferences || preferences.length === 0) {
       return res.status(400).json({ success: false, message: "No preferences provided." });
