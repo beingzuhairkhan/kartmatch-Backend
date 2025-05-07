@@ -1,9 +1,9 @@
 import BengalVendor from '../model/bengalSchema.js';
 import maharashtraVendor from '../model/maharashtraSchema.js';
 import rajasthanVendor from '../model/rajasthanSchema.js';
+import NodeCache from 'node-cache';
 
-// Utility to parse both decimal & DMS coordinates
-// Helper to parse individual coordinates
+const vendorCache = new NodeCache({ stdTTL: 30 * 24 * 60 * 60 });
 
 
 const parseCoordinate = (coordinateStr) => {
@@ -112,163 +112,206 @@ export const insertVendors = async (req, res) => {
 
 
 
-// export const insertVendors = async (req, res) => {
-//   try {
-//     const vendors = req.body;
 
-//     // Convert foodItems string to array (if needed) and ensure coordinates are valid numbers
-//     const formattedVendors = vendors.map(vendor => ({
-//       name: vendor.name,
-//       location: {
-//         type: "Point",
-//         coordinates: [
-//           parseFloat(vendor.longitude), // longitude
-//           parseFloat(vendor.latitude),  // latitude
-//         ],
-//       },
-//       city: vendor.city || vendor.City,
-//       state: vendor.state || vendor.State,
-//       foodItems: vendor.foodItems
-//         ? Array.isArray(vendor.foodItems)
-//           ? vendor.foodItems
-//           : vendor.foodItems.split(',').map(item => item.trim())
-//         : [],
-//       hygieneRating: vendor.hygiene || vendor.hygieneRating,
-//       tasteRating: vendor.taste || vendor.tasteRating,
-//       hospitalityRating: vendor.hospitality || vendor.hospitalityRating,
-//       photoUrl: vendor.photoUrl,
-//     }));
+// export const fetchVendorsData = async (req , res)=>{
+//   try{
+//     const page = parseInt(req.query.page) || 1 ;
+//     const limit = 9 ;
+//     const startIndex = (page - 1) * limit ;
 
-//     const inserted = await maharashtraVendor.insertMany(formattedVendors);
+//     const bengalVendors = await BengalVendor.aggregate([
+//       {$addFields : {state: 'West Bengal'}}
+//     ]);
 
-//     res.status(201).json({
+//     const maharashtraVendors = await maharashtraVendor.aggregate([
+//       {$addFields : {state: 'Maharashtra'}}
+//     ])
+
+//     const rajasthanVendors = await rajasthanVendor.aggregate([
+//       { $addFields: { state: 'Rajasthan' } }
+//     ]); 
+
+//     const allVendors = [
+//       ...bengalVendors ,
+//       ...maharashtraVendors,
+//       ...rajasthanVendors
+//     ]
+
+//     // sort the data using name
+//     allVendors.sort((a , b) => a.name.localeCompare(b.name))
+
+//     //apply pagination
+//     const paginatedVendors = allVendors.slice(startIndex , startIndex+limit);
+
+//     res.status(200).json({
 //       success: true,
-//       message: 'Vendors inserted successfully',
-//       data: inserted,
-//     });
-//   } catch (error) {
-//     console.error('Insertion failed:', error.message);
-//     res.status(500).json({
-//       success: false,
-//       message: 'Insertion failed',
-//       error: error.message,
-//     });
+//       currentPage: page,
+//       totalPages: Math.ceil(allVendors.length / limit),
+//       totalVendors: allVendors.length,
+//       data: paginatedVendors
+//     })
+
+
+//   }catch(err){
+//     console.log("Error in fetchingVendorsData" , err)
+//     res.status(500).json({ success: false, message: "Server error" });
 //   }
-// };
+// }
 
+export const fetchVendorsData = async (req, res) => {
+  try {
+    const page = parseInt(req.query.page) || 1;
+    const limit = 9;
+    const startIndex = (page - 1) * limit;
 
-export const fetchVendorsData = async (req , res)=>{
-  try{
-    const page = parseInt(req.query.page) || 1 ;
-    const limit = 9 ;
-    const startIndex = (page - 1) * limit ;
+    const cacheKey = `vendors:page:${page}`;
 
-    const bengalVendors = await BengalVendor.aggregate([
-      {$addFields : {state: 'West Bengal'}}
+    // Try getting data from cache
+    const cachedData = vendorCache.get(cacheKey);
+    if (cachedData) {
+      return res.status(200).json({
+        success: true,
+        currentPage: page,
+        totalPages: cachedData.totalPages,
+        totalVendors: cachedData.totalVendors,
+        data: cachedData.data,
+        fromCache: true
+      });
+    }
+
+    const [bengalVendors, maharashtraVendors, rajasthanVendors] = await Promise.all([
+      BengalVendor.aggregate([
+        { $addFields: { state: 'West Bengal' } },
+        { $sort: { name: 1 } },
+      ]),
+      maharashtraVendor.aggregate([
+        { $addFields: { state: 'Maharashtra' } },
+        { $sort: { name: 1 } },
+      ]),
+      rajasthanVendor.aggregate([
+        { $addFields: { state: 'Rajasthan' } },
+        { $sort: { name: 1 } },
+      ])
     ]);
 
-    const maharashtraVendors = await maharashtraVendor.aggregate([
-      {$addFields : {state: 'Maharashtra'}}
-    ])
-
-    const rajasthanVendors = await rajasthanVendor.aggregate([
-      { $addFields: { state: 'Rajasthan' } }
-    ]); 
-
     const allVendors = [
-      ...bengalVendors ,
+      ...bengalVendors,
       ...maharashtraVendors,
       ...rajasthanVendors
-    ]
+    ];
 
-    // sort the data using name
-    allVendors.sort((a , b) => a.name.localeCompare(b.name))
+    const totalVendors = allVendors.length;
+    const totalPages = Math.ceil(totalVendors / limit);
 
-    //apply pagination
-    const paginatedVendors = allVendors.slice(startIndex , startIndex+limit);
+    const paginatedVendors = allVendors.slice(startIndex, startIndex + limit);
+
+    // Cache the paginated result
+    vendorCache.set(cacheKey, {
+      totalPages,
+      totalVendors,
+      data: paginatedVendors,
+    });
 
     res.status(200).json({
       success: true,
       currentPage: page,
-      totalPages: Math.ceil(allVendors.length / limit),
-      totalVendors: allVendors.length,
-      data: paginatedVendors
-    })
-
-
-  }catch(err){
-    console.log("Error in fetchingVendorsData" , err)
+      totalPages,
+      totalVendors,
+      data: paginatedVendors,
+      fromCache: false
+    });
+  } catch (err) {
+    console.log("Error in fetchingVendorsData", err);
     res.status(500).json({ success: false, message: "Server error" });
   }
-}
+};
+
 
 // fetch vendors data 
 
+
 export const getNearbyVendors = async (req, res) => {
   try {
-    const { lat, lng, radius = 5 } = req.query;
+    const { lat, lng, radius = '5' } = req.query;
 
+    // Validation: Check presence
     if (!lat || !lng) {
-      return res.status(400).json({ success: false, message: 'Latitude and Longitude are required.' });
+      return res.status(400).json({
+        success: false,
+        message: 'Latitude and Longitude are required in the query parameters.',
+      });
     }
 
+    // Parse and validate inputs
     const latitude = parseFloat(lat);
     const longitude = parseFloat(lng);
-    const searchRadius = parseFloat(radius);  // Radius in kilometers
+    const searchRadius = parseFloat(radius); 
 
-    if (isNaN(latitude) || isNaN(longitude) || isNaN(searchRadius)) {
-      return res.status(400).json({ success: false, message: 'Invalid latitude, longitude, or radius format.' });
+    if ([latitude, longitude, searchRadius].some(val => isNaN(val))) {
+      return res.status(400).json({
+        success: false,
+        message: 'Latitude, Longitude, and Radius must be valid numbers.',
+      });
     }
 
-    const maxDistanceInMeters = searchRadius * 1000;  // Convert to meters
+    const maxDistance = Math.round(searchRadius * 1000); 
 
-    // Debug log to check the values
-    console.log('User Coordinates:', [longitude, latitude]);
-    console.log('Max Distance (meters):', maxDistanceInMeters);
+    const cacheKey = `nearby-${latitude.toFixed(4)}-${longitude.toFixed(4)}-${maxDistance}`;
+    const cachedResult = vendorCache.get(cacheKey);
 
-    // Using .find() with geospatial query
-    const bengalVendors = await BengalVendor.find({
-      location: {
-        $near: {
-          $geometry: { type: 'Point', coordinates: [longitude, latitude] },
-          $maxDistance: maxDistanceInMeters,
+    if (cachedResult) {
+      return res.status(200).json({
+        success: true,
+        cached: true,
+        totalResults: cachedResult.length,
+        data: cachedResult,
+      });
+    }
+
+    const fetchNearbyVendors = (Model) =>
+      Model.find({
+        location: {
+          $near: {
+            $geometry: { type: 'Point', coordinates: [longitude, latitude] },
+            $maxDistance: maxDistance,
+          },
         },
-      },
-    });
+      });
 
-    const maharashtraVendors = await maharashtraVendor.find({
-      location: {
-        $near: {
-          $geometry: { type: 'Point', coordinates: [longitude, latitude] },
-          $maxDistance: maxDistanceInMeters,
-        },
-      },
-    });
+    const [bengalVendors, maharashtraVendors, rajasthanVendors] = await Promise.all([
+      fetchNearbyVendors(BengalVendor),
+      fetchNearbyVendors(maharashtraVendor),
+      fetchNearbyVendors(rajasthanVendor),
+    ]);
 
-    const rajasthanVendors = await rajasthanVendor.find({
-      location: {
-        $near: {
-          $geometry: { type: 'Point', coordinates: [longitude, latitude] },
-          $maxDistance: maxDistanceInMeters,
-        },
-      },
-    });
+    const combinedVendors = [
+      ...bengalVendors.map(v => ({ ...v.toObject(), state: 'West Bengal' })),
+      ...maharashtraVendors.map(v => ({ ...v.toObject(), state: 'Maharashtra' })),
+      ...rajasthanVendors.map(v => ({ ...v.toObject(), state: 'Rajasthan' })),
+    ];
 
-    // Combine all vendors from different states
-    const allNearby = [...bengalVendors, ...maharashtraVendors, ...rajasthanVendors];
+    const formattedVendors = combinedVendors.map(v => ({
+      ...v,
+      latitude: v.location?.coordinates?.[1],
+      longitude: v.location?.coordinates?.[0],
+    }));
 
-    // Sort by distance (assuming distance is calculated)
-    allNearby.sort((a, b) => a.distance - b.distance);
+    vendorCache.set(cacheKey, formattedVendors);
 
     res.status(200).json({
       success: true,
-      totalResults: allNearby.length,
-      data: allNearby,
+      cached: false,
+      totalResults: formattedVendors.length,
+      data: formattedVendors,
     });
 
   } catch (error) {
     console.error('Nearby vendor fetch failed:', error);
-    res.status(500).json({ success: false, message: 'Internal server error.', error: error.message });
+    res.status(500).json({
+      success: false,
+      message: 'Internal server error while fetching nearby vendors.',
+      error: error.message,
+    });
   }
 };
 
@@ -312,7 +355,7 @@ export const getVendorById = async (req, res) => {
 
 export const getFilteredVendors = async (req, res) => {
   try {
-    const { preferences, minStars = 5 } = req.body;
+    const { preferences, minStars = 4 } = req.body;
 
     if (!preferences || preferences.length === 0) {
       return res.status(400).json({ success: false, message: "No preferences provided." });
@@ -335,6 +378,20 @@ export const getFilteredVendors = async (req, res) => {
       }
     });
 
+    // Create a cache key based on preferences and minStars
+    const cacheKey = `filtered-${JSON.stringify(preferences)}-minStars-${minStars}`;
+
+    // Check cache for filtered vendors
+    const cachedVendors = vendorCache.get(cacheKey);
+
+    if (cachedVendors) {
+      return res.status(200).json({
+        success: true,
+        cached: true,
+        data: cachedVendors,
+      });
+    }
+
     // Query all vendor collections in parallel
     const [bengal, maharashtra, rajasthan] = await Promise.all([
       BengalVendor.find(filter),
@@ -348,13 +405,16 @@ export const getFilteredVendors = async (req, res) => {
       ...rajasthan.map(v => ({ ...v._doc, state: "Rajasthan" })),
     ];
 
+    // Cache the filtered vendors for future use
+    vendorCache.set(cacheKey, allVendors);
+
     res.json({ success: true, data: allVendors });
+
   } catch (error) {
-    console.error(error);
+    console.error('Error fetching filtered vendors:', error);
     res.status(500).json({ success: false, message: "Server Error" });
   }
 };
-
 
 export const fixRajasthanCoordinates = async (req, res) => {
   try {
@@ -381,3 +441,50 @@ export const fixRajasthanCoordinates = async (req, res) => {
     res.status(500).json({ success: false, message: 'Server error', error: error.message });
   }
 };
+
+
+
+
+// export const insertVendors = async (req, res) => {
+//   try {
+//     const vendors = req.body;
+
+//     // Convert foodItems string to array (if needed) and ensure coordinates are valid numbers
+//     const formattedVendors = vendors.map(vendor => ({
+//       name: vendor.name,
+//       location: {
+//         type: "Point",
+//         coordinates: [
+//           parseFloat(vendor.longitude), // longitude
+//           parseFloat(vendor.latitude),  // latitude
+//         ],
+//       },
+//       city: vendor.city || vendor.City,
+//       state: vendor.state || vendor.State,
+//       foodItems: vendor.foodItems
+//         ? Array.isArray(vendor.foodItems)
+//           ? vendor.foodItems
+//           : vendor.foodItems.split(',').map(item => item.trim())
+//         : [],
+//       hygieneRating: vendor.hygiene || vendor.hygieneRating,
+//       tasteRating: vendor.taste || vendor.tasteRating,
+//       hospitalityRating: vendor.hospitality || vendor.hospitalityRating,
+//       photoUrl: vendor.photoUrl,
+//     }));
+
+//     const inserted = await maharashtraVendor.insertMany(formattedVendors);
+
+//     res.status(201).json({
+//       success: true,
+//       message: 'Vendors inserted successfully',
+//       data: inserted,
+//     });
+//   } catch (error) {
+//     console.error('Insertion failed:', error.message);
+//     res.status(500).json({
+//       success: false,
+//       message: 'Insertion failed',
+//       error: error.message,
+//     });
+//   }
+// };
